@@ -14,7 +14,7 @@ class CounterPage extends StatelessWidget {
   Widget build(BuildContext context){
     return BlocProvider(
       create: (_)=> CounterCubit(),
-      child: const CounterView(),
+      child: const CounterView(), // links the counter_view.dart
     );
   }
 }

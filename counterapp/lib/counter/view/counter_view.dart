@@ -8,8 +8,8 @@ import 'package:flutter_counter/counter/cubit/counter_cubit.dart';
 /// [CounterCubit] state and notifies it in response to user input.
 /// {@endtemplate}
 
-class CounterView extends StatelessWidget{
-   /// {@macro counter_view}
+class CounterView extends StatelessWidget {
+  /// {@macro counter_view}
   const CounterView({super.key}); // find out why this super key reason
 
   @override
@@ -31,14 +31,14 @@ class CounterView extends StatelessWidget{
             // the button that changes the state in the increment direction
             key: const Key('counterView_increment_floatingActionButton'),
             child: const Icon(Icons.add),
-            onPressed: ()=> context.read<CounterCubit>().increment(),
+            onPressed: () => context.read<CounterCubit>().increment(),
           ),
           const SizedBox(height: 8),
           FloatingActionButton(
             // the button that changes the state in the decrement direction
             key: const Key('counterView_decrement_floatingActionButton'),
             child: const Icon(Icons.remove),
-            onPressed: ()=> context.read<CounterCubit>().decrement(),
+            onPressed: () => context.read<CounterCubit>().decrement(),
           ),
         ],
       ),
