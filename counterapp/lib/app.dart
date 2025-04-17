@@ -7,5 +7,6 @@ import 'package:flutter_counter/counter/counter.dart';
 
 class CounterApp extends MaterialApp {
   /// {@macro counter_app}
-  const CounterApp({super.key}) : super(home: const CounterPage());
+  const CounterApp({super.key}) : super(home: const CounterPage()); 
+  // setting the home page to be the counter page - might be coming through the counter.dart file in the counter folder
 }

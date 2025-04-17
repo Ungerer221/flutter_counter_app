@@ -1,6 +1,9 @@
 # counterapp
 
-A new Flutter project.
+A new Flutter Counter project.
+
+Done Using the Bloc flutter docs
+https://bloclibrary.dev/tutorials/flutter-counter/
 
 # Key Topics 
 - observe state changes with blocObserver
